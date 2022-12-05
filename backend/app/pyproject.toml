@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "laboratory-api-starter"
+version = "0.0.1"
+description = "Example RESTful API with djangorestframework"
+authors = ["ministry@scopal-affairs.com"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0"
+djangorestframework = "^3.13"
+psycopg2-binary = "^2.9"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.29"
+isort = "^5.9"
+epdb = "^0.15.1"
+black = "^21.9b0"
+mypy = "^0.910"
+pylint = "^2.6.0"
+neovim = "^0.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
